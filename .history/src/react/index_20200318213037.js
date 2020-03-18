@@ -40,7 +40,6 @@ function createElement(type, config, children) {
 function Component() {
 
 }
-
 Component.prototype.isReactComponent = true
 
 export default {

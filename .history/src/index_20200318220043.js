@@ -11,7 +11,7 @@ const e = React.createElement("ul", {
       color: 'white',
       background: 'green'
     }
-  }, "nihao", React.createElement("button", {onClick: test}, 'no'))
+  }, "nihao", React.createElement("ul", {onClick: test}, 'no'))
 
 console.log(e)
 

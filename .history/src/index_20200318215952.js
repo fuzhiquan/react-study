@@ -10,8 +10,9 @@ const e = React.createElement("ul", {
     style: {
       color: 'white',
       background: 'green'
-    }
-  }, "nihao", React.createElement("button", {onClick: test}, 'no'))
+    },
+    onClick: test
+  }, "nihao")
 
 console.log(e)
 

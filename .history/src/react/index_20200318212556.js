@@ -37,11 +37,9 @@ function createElement(type, config, children) {
    return  ReactElement(...arguments)
 }
 
-function Component() {
-
+class Component {
+    isReactComponent = true
 }
-
-Component.prototype.isReactComponent = true
 
 export default {
     createElement,

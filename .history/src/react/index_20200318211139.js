@@ -37,13 +37,11 @@ function createElement(type, config, children) {
    return  ReactElement(...arguments)
 }
 
-function Component() {
-
-}
-
-Component.prototype.isReactComponent = true
-
 export default {
-    createElement,
-    Component
+    createElement
 }
+
+const o = {name: 123}
+Object.freeze(o)
+o.name = 34
+console.log(o.name)

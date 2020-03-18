@@ -1,5 +1,5 @@
 import React from './react'
-import ReactDOM from './react-dom'
+import ReactDOM from 'react-dom'
 
 function test() {
     alert(0)
@@ -10,8 +10,9 @@ const e = React.createElement("ul", {
     style: {
       color: 'white',
       background: 'green'
-    }
-  }, "nihao", React.createElement("button", {onClick: test}, 'no'))
+    },
+    onClick: test
+  }, "nihao")
 
 console.log(e)
 
