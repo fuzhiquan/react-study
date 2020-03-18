@@ -1,4 +1,4 @@
-import React from './react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 
 //<ul className='con' style={{color: 'white', background: 'green'}}>nihao</ul>

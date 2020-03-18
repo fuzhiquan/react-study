@@ -8,6 +8,6 @@ const e = React.createElement("ul", {
       color: 'white',
       background: 'green'
     }
-  }, "nihao", React.createElement("p", null, "momo"))
+  }, "nihao")
 console.log(e)
 ReactDOM.render(e, document.getElementById('root'))

@@ -1,6 +1,6 @@
-import React from './react'
+import React from 'react'
 import ReactDOM from 'react-dom'
-
+debugger
 //<ul className='con' style={{color: 'white', background: 'green'}}>nihao</ul>
 const e = React.createElement("ul", {
     className: "con",
@@ -8,6 +8,6 @@ const e = React.createElement("ul", {
       color: 'white',
       background: 'green'
     }
-  }, "nihao", React.createElement("p", null, "momo"))
+  }, "nihao")
 console.log(e)
 ReactDOM.render(e, document.getElementById('root'))
